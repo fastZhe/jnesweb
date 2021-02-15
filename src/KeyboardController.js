@@ -23,6 +23,32 @@ const KEYS = {
 
 export default class KeyboardController {
   constructor(options) {
+    window['nes']={
+      "SELECT":()=>{
+        options.onButtonDown(1,2);
+      },
+      "START":()=>{
+        options.onButtonDown(1,3);
+      },
+      "A":()=>{
+        options.onButtonDown(1,0);
+      },
+      "B":()=>{
+        options.onButtonDown(1,1);
+      },
+      "LEFT":()=>{
+        options.onButtonDown(1,6);
+      },
+      "RIGHT":()=>{
+        options.onButtonDown(1,7);
+      },
+      "UP":()=>{
+        options.onButtonDown(1,4);
+      },
+      "BOTTOM":()=>{
+        options.onButtonDown(1,5);
+      }
+    }
     this.onButtonDown = options.onButtonDown;
     this.onButtonUp = options.onButtonUp;
   }
@@ -52,6 +78,7 @@ export default class KeyboardController {
 
   handleKeyDown = e => {
     var key = this.keys[e.keyCode];
+    console.log('key',key);
     if (key) {
       this.onButtonDown(key[0], key[1]);
       e.preventDefault();

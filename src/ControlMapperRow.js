@@ -146,6 +146,7 @@ class ControlMapperRow extends Component {
   }
 
   handleClick(player) {
+    console.log('pppppp');
     this.props.handleClick([player, this.props.button]);
     this.setState({
       waitingForKey: player

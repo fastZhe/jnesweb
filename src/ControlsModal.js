@@ -50,7 +50,7 @@ class ControlsModal extends Component {
 
   listenForKey(button) {
     var currentPromptButton = button[1];
-
+console.log('ppppppp');
     this.removeKeyListener();
     this.setState({ button, currentPromptButton });
     this.props.promptButton(this.handleGamepadButtonDown);
@@ -58,6 +58,8 @@ class ControlsModal extends Component {
   }
 
   handleGamepadButtonDown(buttonInfo) {
+
+    console.log('kkkkkkkkiiiiiiiiiii00000');
     this.removeKeyListener();
 
     var button = this.state.button;
@@ -121,6 +123,7 @@ class ControlsModal extends Component {
     const playerId = button[0];
     playerGamepadId[playerId - 1] = null;
 
+    console.log('----',newKeys,this.state.gamepadConfig)
     this.setState({
       keys: {
         ...newKeys,
