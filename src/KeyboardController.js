@@ -23,30 +23,56 @@ const KEYS = {
 
 export default class KeyboardController {
   constructor(options) {
+    console.log('options',options);
     window['nes']={
       "SELECT":()=>{
         options.onButtonDown(1,2);
+        setTimeout(()=>{
+          options.onButtonUp(1,2);
+        },100)
+        
       },
       "START":()=>{
         options.onButtonDown(1,3);
+        setTimeout(()=>{
+          options.onButtonUp(1,3);
+        },100)
       },
       "A":()=>{
         options.onButtonDown(1,0);
+        setTimeout(()=>{
+          options.onButtonUp(1,0);
+        },100)
       },
       "B":()=>{
         options.onButtonDown(1,1);
+        setTimeout(()=>{
+          options.onButtonUp(1,1);
+        },100)
       },
       "LEFT":()=>{
         options.onButtonDown(1,6);
+        setTimeout(()=>{
+          options.onButtonUp(1,6);
+        },100)
       },
       "RIGHT":()=>{
         options.onButtonDown(1,7);
+        setTimeout(()=>{
+          options.onButtonUp(1,7);
+        },100)
       },
       "UP":()=>{
         options.onButtonDown(1,4);
+        setTimeout(()=>{
+          options.onButtonUp(1,4);
+        },100)
       },
       "BOTTOM":()=>{
         options.onButtonDown(1,5);
+        setTimeout(()=>{
+          options.onButtonUp(1,5);
+        },100)
       }
     }
     this.onButtonDown = options.onButtonDown;
