@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jsnes-web/static/css/main.71122778.chunk.css",
-    "main.js": "/jsnes-web/static/js/main.57d38e71.chunk.js",
-    "main.js.map": "/jsnes-web/static/js/main.57d38e71.chunk.js.map",
-    "runtime-main.js": "/jsnes-web/static/js/runtime-main.8273e804.js",
-    "runtime-main.js.map": "/jsnes-web/static/js/runtime-main.8273e804.js.map",
-    "static/js/2.1c6eeed0.chunk.js": "/jsnes-web/static/js/2.1c6eeed0.chunk.js",
-    "static/js/2.1c6eeed0.chunk.js.map": "/jsnes-web/static/js/2.1c6eeed0.chunk.js.map",
-    "index.html": "/jsnes-web/index.html",
-    "precache-manifest.0f2f5b8ccfdd12de419e3863bccb5510.js": "/jsnes-web/precache-manifest.0f2f5b8ccfdd12de419e3863bccb5510.js",
-    "service-worker.js": "/jsnes-web/service-worker.js",
-    "static/css/main.71122778.chunk.css.map": "/jsnes-web/static/css/main.71122778.chunk.css.map",
-    "static/js/2.1c6eeed0.chunk.js.LICENSE.txt": "/jsnes-web/static/js/2.1c6eeed0.chunk.js.LICENSE.txt"
+    "main.css": "/jsnesWeb/static/css/main.71122778.chunk.css",
+    "main.js": "/jsnesWeb/static/js/main.a435bdbf.chunk.js",
+    "main.js.map": "/jsnesWeb/static/js/main.a435bdbf.chunk.js.map",
+    "runtime-main.js": "/jsnesWeb/static/js/runtime-main.9f23051a.js",
+    "runtime-main.js.map": "/jsnesWeb/static/js/runtime-main.9f23051a.js.map",
+    "static/js/2.1c6eeed0.chunk.js": "/jsnesWeb/static/js/2.1c6eeed0.chunk.js",
+    "static/js/2.1c6eeed0.chunk.js.map": "/jsnesWeb/static/js/2.1c6eeed0.chunk.js.map",
+    "index.html": "/jsnesWeb/index.html",
+    "precache-manifest.0beeae8f4e5d753b73ef4346a2959ae5.js": "/jsnesWeb/precache-manifest.0beeae8f4e5d753b73ef4346a2959ae5.js",
+    "service-worker.js": "/jsnesWeb/service-worker.js",
+    "static/css/main.71122778.chunk.css.map": "/jsnesWeb/static/css/main.71122778.chunk.css.map",
+    "static/js/2.1c6eeed0.chunk.js.LICENSE.txt": "/jsnesWeb/static/js/2.1c6eeed0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8273e804.js",
+    "static/js/runtime-main.9f23051a.js",
     "static/js/2.1c6eeed0.chunk.js",
     "static/css/main.71122778.chunk.css",
-    "static/js/main.57d38e71.chunk.js"
+    "static/js/main.a435bdbf.chunk.js"
   ]
 }
